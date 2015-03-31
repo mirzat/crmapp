@@ -6,6 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'yii\\composer\\' => array($vendorDir . '/yiisoft/yii2-composer'),
+    'yii\\' => array($vendorDir . '/yiisoft/yii2'),
+    'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
     'React\\Promise\\' => array($vendorDir . '/react/promise/src'),
     'GuzzleHttp\\Stream\\' => array($vendorDir . '/guzzlehttp/streams/src'),
     'GuzzleHttp\\Ring\\' => array($vendorDir . '/guzzlehttp/ringphp/src'),
